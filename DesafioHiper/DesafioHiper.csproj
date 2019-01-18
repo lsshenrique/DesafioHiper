@@ -51,6 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Arquivos\FaturasPag12.csv" />
+    <None Include="Arquivos\FaturasPag12x.csv" />
+    <None Include="Arquivos\FaturasPag6.csv" />
+    <None Include="Arquivos\FaturasZeradas.csv" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Arquivos\Baseficticia.txt">

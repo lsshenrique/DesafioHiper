@@ -50,13 +50,13 @@ namespace DesafioHiper
 
         private static void ExportarParaArquivoCsv()
         {
-            if (!Directory.Exists("ArquivosSaida"))
-                Directory.CreateDirectory("ArquivosSaida");
+            if (!Directory.Exists("Arquivos"))
+                Directory.CreateDirectory("Arquivos");
 
-            File.WriteAllLines(@"ArquivosSaida\FaturasZeradas.csv", _csvFaturasZeradas);
-            File.WriteAllLines(@"ArquivosSaida\FaturasPag6.csv", _csvFaturasPag6);
-            File.WriteAllLines(@"ArquivosSaida\FaturasPag12.csv", _csvFaturasPag12);
-            File.WriteAllLines(@"ArquivosSaida\FaturasPag12x.csv", _csvFaturasPag12x);
+            File.WriteAllLines(@"Arquivos\FaturasZeradas.csv", _csvFaturasZeradas);
+            File.WriteAllLines(@"Arquivos\FaturasPag6.csv", _csvFaturasPag6);
+            File.WriteAllLines(@"Arquivos\FaturasPag12.csv", _csvFaturasPag12);
+            File.WriteAllLines(@"Arquivos\FaturasPag12x.csv", _csvFaturasPag12x);
         }
 
         private static void Processar(List<Registro> todosRegistros)
