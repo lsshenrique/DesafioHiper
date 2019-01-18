@@ -83,10 +83,12 @@ namespace DesafioHiper
                     {
                         _csvFaturasPag6.Add(itemCsv);
                         _csvFaturasPag12.Add(itemCsv);
+                        _csvFaturasPag12x.Add(itemCsv);
                     }
                     else if (item.NumeroPaginas <= 12)
                     {
                         _csvFaturasPag12.Add(itemCsv);
+                        _csvFaturasPag12x.Add(itemCsv);
                     }
                     else
                     {
